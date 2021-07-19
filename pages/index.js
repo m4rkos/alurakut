@@ -73,7 +73,7 @@ export default function Home() {
             const comunidade = {
               id: new Date().toISOString(),
               title: dadoForm.get('title'), 
-              image: `https://picsum.photos/id/${randId}/200/300`,
+              image: `https://picsum.photos/id/${randId}/300/300`,
               link: dadoForm.get('link')
             };
 
@@ -136,7 +136,7 @@ export default function Home() {
             })}
           </ul>
         </ProfileRelationsBoxWrapper>        
-        
+
       </div>      
     </MainGrid>
   </>)
