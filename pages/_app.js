@@ -9,7 +9,13 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {    
-    background-color: #d9e6f6;
+    /*background-color: #d9e6f6;*/
+    background: linear-gradient(
+      rgba(217, 230, 246, 0.9), 
+      rgba(0, 0, 0, 0.9)
+    ),url('https://moow.com.br/static/assets/images/back1.jpg');
+    background-size: cover;
+    background-position: center;
     font-family: sans-serif;
   }
 
